@@ -15,6 +15,11 @@ const routes = [
     component: () => import("@/views/ContactEdit.vue"),
     props: true, // truyền id từ $route.params vào props
   },
+  {
+  path: "/contacts/add",
+  name: "contact.add",
+  component: () => import("@/views/ContactAdd.vue"),
+},
   // Route 404 - luôn để cuối cùng
   {
     path: "/:pathMatch(.*)*",
