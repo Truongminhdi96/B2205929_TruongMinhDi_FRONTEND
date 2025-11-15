@@ -1,0 +1,31 @@
+{
+  "name": "backend1_ct449",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Truongminhdi96/BACKEND1_CT449#readme",
+  "bugs": {
+    "url": "https://github.com/Truongminhdi96/BACKEND1_CT449/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truongminhdi96/BACKEND1_CT449.git"
+  },
+  "license": "ISC",
+  "author": "Minh Di",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
